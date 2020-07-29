@@ -1,0 +1,5 @@
+5) detect remote file inclusion with found entries
+
+Firstly find similar regex word for RFI, i got sample words contains “variable=http://xxx.com” and after search log ..
+
+Script : grep -aE "file=(http|php)" CTF1.log
