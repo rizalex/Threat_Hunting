@@ -1,0 +1,5 @@
+4) detect SQLi with found entries
+
+SQL Injection use sql statement to enumerate the queries from databases, i am searching for general statement like “select, from, delete, update, where and etc” until find best script regex for the log 
+
+Script : grep -aE "'\sand|'1|select |select\*|information_schema|\.sql|concat\(|rand\(" CTF1.log
