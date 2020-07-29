@@ -1,0 +1,6 @@
+6) detect web shells with found entries
+
+After got information IP Address 64.37.231.160 is the person who do RFI, I analyze the packet using excel with filter of size and response. I got something interesting value of “c99.php” and “sniper.php” have bigger size different value and redirect status (302).
+As information c99.php look like a shell has been upload to web server, here some detail : http://www.topshellv.com/shell/c99-shell
+
+Script : grep -a "64.37.231.160" CTF1.log
